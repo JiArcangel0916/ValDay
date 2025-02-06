@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Question For You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body class="d-flex justify-content-center align-items-center min-vh-100 o-hidden">
+    <img src="Resources/Penguins/Can I ask.png" class="img bgPenguins d-none" id="Ask">
+    <img src="Resources/Penguins/Greetings.png" class="img bgPenguins d-none" id="Greet">
+    <img src="Resources/Penguins/6.png" class="img bgPenguins d-none" id="img6">
+    <img src="Resources/Penguins/8.png" class="img bgPenguins d-none" id="img7">
+    <img src="Resources/Penguins/7.png" class="img bgPenguins d-none" id="img8">
+    <img src="Resources/Penguins/9.png" class="img bgPenguins d-none" id="img9">
+    <img src="Resources/Penguins/8.png" class="img bgPenguins d-none" id="img10">
+    <img src="Resources/Penguins/7.png" class="img bgPenguins d-none" id="img11">
+
+    <div class="container text-center">
+        <div class="row text-row">
+            <div class="col text-col">
+                <h2 id="text">Hello! Before anything, enter your name below.</h2>
+            </div>
+        </div>
+        <div class="row-fluid image-row">
+            <div class="col image-col d-flex justify-content-center align-items-center">
+                <img src="Resources/Penguins/Greetings.png" alt="Penguin" id="img" class="img-fluid" draggable="false">
+            </div>
+        </div>
+        <div class="row answer-row">
+            <div class="col answer-col">
+                <input type="text" id="nameInput" class="form-control w-25 mx-auto fs-5" placeholder="Hint: Elaine/Baba">
+                <button id="nextButton" class="btn btn-dark mt-3 rounded-pill fs-5">Enter</button>
+                <button id="option1" class="btn btn-success d-none rounded-pill w-5 mx-3 fs-4">Yes</button>
+                <button id="option2" class="btn btn-danger d-none rounded-pill w-5 mx-3 fs-4">No</button>
+                <h4 id="final"></h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
